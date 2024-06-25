@@ -1,4 +1,16 @@
 ---
+nav_exclude: true
+---
+
+# Learning Notes
+
+Here you can explore the notes I took on books I read, talks I watch, articles I study, and papers I love – recalling them right afterward by creating short summaries – helps a lot in my learning process. Here you'll find some of those little pieces.
+
+* [Articles](./articles/)
+* [Books](./books/)
+* [Talks](./talks/)
+
+<!-- ---
 title: Home
 layout: home
 ---
@@ -32,4 +44,4 @@ If you want to maintain your docs in the `docs` directory of an existing project
 [README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate -->

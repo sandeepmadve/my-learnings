@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Customization
-nav_order: 3
+title: Articles
+nav_order: 1
 ---
 
-# Articles
