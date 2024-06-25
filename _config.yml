@@ -1,11 +1,59 @@
-title: My Learnings
-description: I share my learnings here
+title: My Notes
+description: Sandeep Madve's learnings notes
+permalink: pretty
+baseurl: /my-learnings
+
 theme: just-the-docs
 
 url: https://sandeepmadve.github.io/my-learnings
 
 aux_links: # remove if you don't want this link to appear on your pages
-  Template Repository: https://github.com/sandeepmadve/my-learnings
+  My Notes on GitHub: https://github.com/sandeepmadve/my-learnings
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
+
+color_scheme: custom
+
+# Footer "Edit this page on GitHub" link text
+# gh_edit_link: true # show or hide edit this page link
+# gh_edit_link_text: "Edit this page on GitHub."
+# gh_edit_repository: "https://github.com/sandeepmadve/my-learnings" # the github URL for your repo
+# gh_edit_branch: "master" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+# gh_edit_view_mode: "edit"
+
+defaults:
+  - scope:
+      path: "articles"
+    values:
+      parent: Articles
+      nav_exclude: true
+  - scope:
+      path: "books"
+    values:
+      parent: Books
+      nav_exclude: true
+  - scope:
+      path: "talks"
+    values:
+      parent: Talks
+      nav_exclude: true
