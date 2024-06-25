@@ -13,7 +13,6 @@ aux_links: # remove if you don't want this link to appear on your pages
 plugins:
   - jekyll-seo-tag
   - jekyll-default-layout
-  - jekyll-optional-front-matter
   - jekyll-titles-from-headings
 
 kramdown:
