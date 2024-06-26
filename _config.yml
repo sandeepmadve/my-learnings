@@ -1,7 +1,7 @@
 title: My Notes
 description: Sandeep Madve's learnings notes
 permalink: pretty
-# baseurl: /my-learnings
+baseurl: /my-learnings
 
 theme: just-the-docs
 
