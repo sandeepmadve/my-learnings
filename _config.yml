@@ -11,25 +11,25 @@ aux_links: # remove if you don't want this link to appear on your pages
   My Notes on GitHub: https://github.com/sandeepmadve/my-learnings
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-default-layout
+  - jekyll-seo-tag
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
+# kramdown:
+#   syntax_highlighter_opts:
+#     block:
+#       line_numbers: false
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - docker-compose.yml
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - docker-compose.yml
 
-titles_from_headings:
-  enabled:     true
-  strip_title: false
-  collections: false
+# titles_from_headings:
+#   enabled:     true
+#   strip_title: false
+#   collections: false
 
-color_scheme: custom
+# color_scheme: custom
 
 # Footer "Edit this page on GitHub" link text
 # gh_edit_link: true # show or hide edit this page link
@@ -39,19 +39,19 @@ color_scheme: custom
 # gh_edit_source: docs # the source that your files originate from
 # gh_edit_view_mode: "edit"
 
-defaults:
-  - scope:
-      path: "articles"
-    values:
-      parent: Articles
-      nav_exclude: true
-  - scope:
-      path: "books"
-    values:
-      parent: Books
-      nav_exclude: true
-  - scope:
-      path: "talks"
-    values:
-      parent: Talks
-      nav_exclude: true
+# defaults:
+#   - scope:
+#       path: "articles"
+#     values:
+#       parent: Articles
+#       nav_exclude: true
+#   - scope:
+#       path: "books"
+#     values:
+#       parent: Books
+#       nav_exclude: true
+#   - scope:
+#       path: "talks"
+#     values:
+#       parent: Talks
+#       nav_exclude: true
