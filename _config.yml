@@ -1,11 +1,11 @@
 title: My Notes
 description: Sandeep Madve's learnings notes
 permalink: pretty
-# baseurl: /my-learnings
+baseurl: /my-learnings
 
 theme: just-the-docs
 
-url: https://sandeepmadve.github.io/my-learnings
+url: https://sandeepmadve.github.io
 
 aux_links: # remove if you don't want this link to appear on your pages
   My Notes on GitHub: https://github.com/sandeepmadve/my-learnings
