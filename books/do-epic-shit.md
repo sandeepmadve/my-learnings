@@ -1,4 +1,10 @@
 
+---
+layout: default
+title: Do Epic Shit
+parent: Books
+---
+
 # 5 Valuable Lessons
 
 - Passion is not something you find. It’s something you grow.
