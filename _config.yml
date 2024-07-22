@@ -39,24 +39,24 @@ plugins:
 # gh_edit_source: docs # the source that your files originate from
 # gh_edit_view_mode: "edit"
 
-defaults:
-  - scope:
-      path: "articles"
-    values:
-      parent: Articles
-      nav_exclude: true
-  - scope:
-      path: "books"
-    values:
-      parent: Books
-      nav_exclude: true
-  - scope:
-      path: "papers"
-    values:
-      parent: Papers
-      nav_exclude: true
-  - scope:
-      path: "talks"
-    values:
-      parent: Talks
-      nav_exclude: true
+# defaults:
+#   - scope:
+#       path: "articles"
+#     values:
+#       parent: Articles
+#       nav_exclude: true
+#   - scope:
+#       path: "books"
+#     values:
+#       parent: Books
+#       nav_exclude: true
+#   - scope:
+#       path: "papers"
+#     values:
+#       parent: Papers
+#       nav_exclude: true
+#   - scope:
+#       path: "talks"
+#     values:
+#       parent: Talks
+#       nav_exclude: true
