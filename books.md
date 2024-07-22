@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Books11
+title: Books
 nav_order: 2
 ---
 
