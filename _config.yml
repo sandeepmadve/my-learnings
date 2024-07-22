@@ -51,6 +51,11 @@ defaults:
       parent: Books
       nav_exclude: true
   - scope:
+      path: "papers"
+    values:
+      parent: Papers
+      nav_exclude: true
+  - scope:
       path: "talks"
     values:
       parent: Talks
